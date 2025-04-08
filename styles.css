@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #1b0316;
+    line-height: 1.6;
+}
+
+/* Header */
+header 
+h1 {
+    background-color: #010d0e;
+    color: #d47da6;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 5px solid #0b9650;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+/* Section Titles */
+h2 {
+    color: #0eb6a8;
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+/* Ordered List */
+ol {
+    margin: 20px auto;
+    padding: 10px;
+    list-style-type: lower-roman;
+    width: 60%;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    height: auto;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+thead th {
+    background-color: #0d8185;
+    color: #d173c9;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tbody td {
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #d9eaff;
+}
+
+/* Form Styling */
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e7a4d3;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select,
+button {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Input Styles */
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+    width: auto;
+}
+
+/* Button Styles */
+button {
+    background-color: #580b41;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #911291;
+}
+
+button[type="button"] {
+    background-color: #8d19b1;
+    color: #fff;
+    border: none;
+}
+
+button[type="button"]:hover {
+    background-color: #550d51;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0047ab;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
